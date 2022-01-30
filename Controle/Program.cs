@@ -35,7 +35,7 @@ namespace Controle
                     Console.Write("Valor: ");
                     valorCaptura = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
                 }
-                Console.WriteLine("Possui Valor de venda?  ");
+                Console.WriteLine("Possui Valor de venda? ");
                 valida = char.Parse(Console.ReadLine());
                 if (valida == 's' || valida == 'S')
                 {
